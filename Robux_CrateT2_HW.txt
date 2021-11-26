@@ -1,0 +1,5 @@
+local args = {
+    [1] = "CrateT2_HW"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.Misk.ProductPurchase:FireServer(unpack(args))

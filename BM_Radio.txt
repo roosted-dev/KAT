@@ -1,0 +1,5 @@
+local args = {
+    [1] = "RadioPassVoucher_BM"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.Misk.ItemPurchase:FireServer(unpack(args))
